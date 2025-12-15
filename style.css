@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid yellow;
+}
+
+.foto img {
+  width: 300px;
+  height: auto;
+  border-radius: 50px;
+  border:5px solid violet;
+}
+
+.arriba {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.abajo {
+  margin-top: 8px;
+  font-style: italic;
+}
+button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#videoContainer {
+  margin-top: 20px;
+}
+
+.oculto {
+  display: none;
+}
