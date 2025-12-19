@@ -43,10 +43,42 @@
       allowfullscreen>
     </iframe>
    </div>
-   <script src="script.js"></script>
+   
+   <section class="contacto">
+    <h2>Contacto</h2>
+
+    <form id="contact-form">
+      <label>
+        Nombre<br>
+        <input type="text" name="nombre" required>
+      </label>
+
+      <br><br>
+
+      <label>
+        Email<br>
+        <input type="email" name="email" required>
+      </label>
+
+      <br><br>
+
+      <label>
+        Mensaje<br>
+        <textarea name="mensaje" rows="5" required></textarea>
+      </label>
+
+      <br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p id="resultado"></p>
+  </section>
+
   </main>
 
   <footer>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
